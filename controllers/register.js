@@ -1,5 +1,6 @@
  const User = require("../models/User")
-const bcrypt = require('bcrypt')
+ const bcrypt = require('bcryptjs');
+
 const Joi = require('joi'); // Make sure you have imported Joi properly
  const register = async (req,res,next)=>{
 
